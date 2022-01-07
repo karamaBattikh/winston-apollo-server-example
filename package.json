@@ -1,0 +1,29 @@
+{
+  "name": "winston-apollo-server-example",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/karamaBattikh/winston-apollo-server-example.git",
+  "author": "<battikh.karama@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js",
+    "lint": "eslint --fix  src/**/*.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.1",
+    "graphql": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.11.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
