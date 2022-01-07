@@ -1,5 +1,8 @@
 import { ApolloServer, gql } from 'apollo-server';
 import books from './mockData';
+import getEnv from './utils/getEnv';
+
+const PORT = getEnv('PORT', 4000);
 
 const typeDefs = gql`
   type Book {
@@ -22,6 +25,6 @@ const server = new ApolloServer({
   resolvers,
 });
 
-server.listen().then(({ url }) => {
+server.listen(PORT).then(({ url }) => {
   console.log(`🚀  Server ready at ${url}`);
 });
