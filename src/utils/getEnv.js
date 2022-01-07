@@ -1,7 +1,7 @@
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'
 
-dotenv.config();
+dotenv.config()
 
-const getEnv = (envName, defaultValue) => process.env[envName] || defaultValue;
+const getEnv = (envName, defaultValue) => process.env[envName] || defaultValue
 
-export default getEnv;
+export default getEnv

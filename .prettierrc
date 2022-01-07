@@ -1,8 +1,15 @@
 {
-  "tabWidth": 2,
-  "printWidth": 100,
-  "semi": true,
   "trailingComma": "all",
-  "arrowParens": "always",
-  "singleQuote": true
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "proseWrap": "always",
+  "bracketSpacing": true,
+  "parser": "flow",
+  "endOfLine": "crlf",
+  "fileInfoOptions": {
+    "withNodeModules": true
+  },
+  "withNodeModules": true
 }

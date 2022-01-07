@@ -7,6 +7,6 @@ const books = [
     title: 'City of Glass',
     author: 'Paul Auster',
   },
-];
+]
 
-export default books;
+export default books
